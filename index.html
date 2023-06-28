@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            min-height: 100vh;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(55, 165, 165);
+        }
+        .item-container{
+            position: relative;
+            background-color: #fff;
+            width: 600px;
+            min-height: 420px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+        img{
+            height: 400px;
+        }
+        .textbox{
+            display:inline-block;
+            padding-left: 10px;
+            align-items: center;
+            justify-content: center;
+    
+        }
+        h1{
+            font-style: italic;
+            line-height: 1.5;
+        }
+        p{
+            line-height: 1.2;
+            text-align: left;
+            padding-top:5px;
+            padding-bottom: 50px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="item-container">
+        <div class="imgbox">
+            <img src="09102bb8-d232-4aab-886c-6cc18302b5d9.webp" alt="image">
+        </div>
+        <div class="textbox">
+            <h1 class="name">TROUSER PANTS</h1>
+            <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Quos aliquid eligendi et ad. Soluta, reiciendis nobis, maiores iste necessitatibus tempora corporis
+                perspiciatis eos in repellendus harum deserunt dignissimos, sint provident.</p>
+            <div class="viewmore">
+                <button>MORE DETAILS</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
